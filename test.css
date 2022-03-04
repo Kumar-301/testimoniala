@@ -1,0 +1,392 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+/*header*/
+.header-section{
+    background-image: url("testimages/VELVET_JACQUARD_MAIN_028.png");
+    height:800px;
+    width:100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position:relative;
+}
+.nav-section{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height:166px; 
+}
+/*form*/
+
+.form-section{
+    position: absolute;
+    right:10%;
+    bottom:5%;
+}
+.form-style{
+    max-width: 587px;
+    min-width:200px;
+    background-color: white;
+    padding: 10px;
+   
+
+    
+}
+.sub-cent{
+    text-align: center;
+}
+.input-field{
+    width:90%;
+    height:30px;
+    background-color: #F7F5F2;
+    
+}
+.sub-style{
+    background-color: #000000;
+    height:52px;
+    width:200px;
+    color:white;
+    margin-top:10px;
+    font-size: 20px;
+
+}
+.warning{
+    color:red;
+}   
+
+
+
+/*hoe it works section*/
+.works-section1{
+   
+    background-color: #F7F5F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:20px 0px 30px 0px;
+}
+.works-section{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.works-heading{
+    font-size: 36;
+   font-family: "Barlow";
+}
+.style-section{
+   
+   
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px;
+}
+.border1{
+    border-right:2px solid gray;
+}
+.span-01{
+    font-size:24px;
+    font-family: "Barlow";
+    height:45px;
+    width:45px;
+    background-color: black;
+    color:white;
+    border-radius:5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.style-heading{
+    font-size: 24px;
+    font-family: "Barlow";
+    color:#000000;
+}
+.my-para1{
+    font-size: 14px;
+    font-family: "Barlow";
+    color:#000000;
+}
+/*testimonial*/
+.test-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    background-color:#F7F5F2 ;
+}
+.test-img-section{
+    display:flex;
+    justify-content: center;
+    margin-bottom:30px;
+    
+
+}
+.div-p1{
+    padding-right:30px;
+    
+}
+.div-p2{
+    padding-left:30px;
+    
+}
+.test-heading{
+    height:168px;
+    width:292px;
+    font-size:36px;
+    font-family: "Barlow";
+    color:#000000;
+}
+.test-para{
+    height:168px;
+    width:292px;
+    font-size:16px;
+    font-family: "Barlow";
+    color:#000000;
+}
+.small-1{
+    text-decoration: underline;
+    border-right:2px solid grey;
+    padding-right:10px;
+    font-family: "Barlow";
+    font-size:10px;
+    color:gray
+}
+.small-2{
+    text-decoration: underline;
+    padding-left:10px;
+    font-family: "Barlow";
+    font-size:10px;
+    color:gray
+}
+
+.footer-section{
+    background-color: #000000;
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 30px;
+
+} 
+.expert-img {
+    padding-bottom: 30px;
+}
+.copy-right{
+    color: #ffffff;
+    font-family: "Barlow";
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+@media (min-width:320px) and (max-width:425px){
+    .nav-image{
+            width:250px;
+    }
+    .nav-section{
+        background-color: #FFFFFF;
+        text-align:center;
+        height:100px; 
+    }
+    .form-section{
+        position: absolute;
+        left:0%;
+        right:0%;
+        bottom:10%;
+        margin:10px;
+    }
+    .works-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .border1{
+        border-bottom:2px solid gray;
+        border-right:none;
+    }
+    .style-heading{
+        font-size: 20px;
+        font-family: "Barlow"
+    }
+    .imag1{
+        width:100px;
+        
+}
+
+
+.imag1{
+    width:300px;
+  
+}
+.test-img-section{
+display:flex;
+justify-content: center;
+align-items: center; 
+flex-direction: column;
+}
+.div-p1{
+padding:0px;
+}
+.div-p2{
+padding:0px;
+
+}
+.test-heading{
+font-size:28px;
+font-family: "Barlow";
+margin-bottom: 0px;
+}
+.test-para{
+font-size:16px;
+font-family: "Barlow";
+margin-bottom: 0px;
+}
+.vect-img{
+    height: 40px;
+    width: 200px;
+}
+
+    
+}
+
+@media (min-width:426px) and (max-width:768px){
+    .form-section{
+        position: absolute;
+        right:10%;
+        bottom:10%;
+        
+    }
+    .imag1{
+        width:400px;
+
+}
+
+.imag1{
+    width:400px;
+}
+.test-img-section{
+display:flex;
+justify-content: center;
+align-items: center;
+
+}
+.div-p1{
+padding-right:30px;
+}
+.div-p2{
+padding-left:30px;
+
+}
+} 
+
+/*cor*/
+.decor-img-section{
+    padding-top: 50px;
+}
+.decor-img-heading{
+    font-family: 'Barlow';
+    font-size: 37px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 46px;
+}
+.decor-cent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.c-heading{
+    font-family: "Barlow";
+    font-size:36px;
+    color:#000000;
+}
+.es-img{
+    height: 390px;
+    width: 675px;
+}
+.c-para{
+    font-family: 'Barlow';
+    font-size: 24px;
+    color: #000000;
+    height: 175px;
+    width: 224px;
+    
+}
+ .dec-imag{
+    height: 100px;
+    width: 120px;
+}
+
+@media (min-width:320px) and (max-width:425px){
+    .decor-img-heading{
+        font-family: 'Barlow';
+        font-size: 27px;
+        font-weight: bold;
+        color: #000000;
+        text-align: center;
+        padding-bottom: 46px;
+    }
+    .c-heading{
+        font-family: "Barlow";
+        font-size:25px;
+    }
+    .decor-cent{
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 20px;
+       
+    }
+    .c-para{
+        font-family: 'Barlow';
+        font-size: 12px;
+        color: #000000;
+        height: 105px;
+        width: 120px;
+        
+    }
+}
+@media (min-width:768px) and (max-width:1024px){
+    .decor-cent{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .c-para{
+        font-family: 'Barlow';
+        font-size: 16px;
+        color: #000000;
+        height: 205px;
+        width: 150px;
+        
+    }
+    .dec-imag{
+        height: 300px;
+        width: 350px;
+    }
+}
+@media (min-width:1025px){
+    .dec-imag{
+        height: 300px;
+        width: 350px;
+    }
+}
+
+
+
+
+
+
