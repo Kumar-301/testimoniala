@@ -226,10 +226,10 @@ body{
 }
 
 
-.imag1{
+/* .imag1{
     width:300px;
   
-}
+} */
 .test-img-section{
 display:flex;
 justify-content: center;
@@ -273,9 +273,9 @@ margin-bottom: 0px;
 
 }
 
-.imag1{
+/* .imag1{
     width:400px;
-}
+} */
 .test-img-section{
 display:flex;
 justify-content: center;
